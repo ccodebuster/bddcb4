@@ -71,11 +71,11 @@ public class LoginPage extends Utility {
 
     public void enterEmailId(String email) {
         log.info("enter Email ID");
-        System.out.println("enter email ID");
-        sendTextToElement(emailField, email);
+            sendTextToElement(emailField, email);
     }
 
     public void enterPassword(String password) {
+        log.info("enter Password");
         sendTextToElement(passwordField, password);
     }
 

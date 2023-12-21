@@ -38,7 +38,7 @@ public class HomePage extends Utility {
     }
 
     public void clickOnRegisterLink() {
-        log.info("Clicking on register link : " + registerLink.toString());
+        log.info("Clicking on register link :");
         clickOnElement(registerLink);
     }
 
